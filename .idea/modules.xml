@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CacheModules/CacheModules.iml" filepath="$PROJECT_DIR$/CacheModules/CacheModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DbModules/DbModules.iml" filepath="$PROJECT_DIR$/DbModules/DbModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Libraries/Libraries.iml" filepath="$PROJECT_DIR$/Libraries/Libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModulesManager/ModulesManager.iml" filepath="$PROJECT_DIR$/ModulesManager/ModulesManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MvcModules/MvcModules.iml" filepath="$PROJECT_DIR$/MvcModules/MvcModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetModules/NetModules.iml" filepath="$PROJECT_DIR$/NetModules/NetModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UIModules/UIModules.iml" filepath="$PROJECT_DIR$/UIModules/UIModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lemon.iml" filepath="$PROJECT_DIR$/lemon.iml" />
+    </modules>
+  </component>
+</project>
