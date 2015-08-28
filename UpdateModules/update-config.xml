@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update isAutoCheck="true" appName="应用">
+   
+    <!-- api接口定义 -->
+    <interface url="http://files.cnblogs.com/luxiaofeng54/UpdateResult.xml">
+    </interface>
+    
+    <!-- 基本处理对象配置 -->
+    <items>
+        
+	    <!-- 网络更新块 -->
+	    <item id="client" name="DefaultUpdateClient" classz="com.lemon.modules.update.impl.DefaultUpdateClient"/>
+	    <!-- 网络更新信息查询者 -->
+	    <item id="query" name="DefaultHttpQuery" classz="com.lemon.modules.update.impl.DefaultHttpQuery"/>
+	    <!-- 网络更新信息查询者 -->
+	    <item id="handler" name="DefaultXmlHandler" classz="com.lemon.modules.update.impl.DefaultXmlHandler"/>
+    </items>
+    
+</update>
