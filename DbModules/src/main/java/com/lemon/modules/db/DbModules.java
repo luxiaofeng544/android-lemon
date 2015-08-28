@@ -24,6 +24,8 @@ import java.util.List;
  */
 public class DbModules extends BaseModules {
 
+    protected static Context mContext;
+
     /**
      * init Modules , create instance of this Modules
      * @param mContext
@@ -38,20 +40,14 @@ public class DbModules extends BaseModules {
     private SQLiteDatabasePool mSQLiteDatabasePool;
 
     private DbModules(Context context){
-        this.mContext = context;
+        mContext = context;
         mSQLiteDatabasePool = SQLiteDatabasePool.getInstance(context);
         mSQLiteDatabasePool.createPool();
         sqLiteDatabase = mSQLiteDatabasePool.getSQLiteDatabase();
     }
 
-    public static DbModules getInstance(Context context){
-        if(modules == null){
-            synchronized (DbModules.class) {
-                if(modules == null){
-                    modules = new DbModules(context);
-                }
-            }
-        }
+    public static DbModules getInstance(){
+        AssertUtil.notNull(modules);
         return modules;
     }
 
